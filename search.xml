@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+    
+    <entry>
+      <title>Mysql优化</title>
+      <link href="/2018/10/16/2018%20Mysql%E4%BC%98%E5%8C%96/"/>
+      <url>/2018/10/16/2018%20Mysql%E4%BC%98%E5%8C%96/</url>
+      
+        <content type="html"><![CDATA[<h3 id="Mysql知识点"><a href="#Mysql知识点" class="headerlink" title="Mysql知识点"></a>Mysql知识点</h3><p>B树、explain</p><a id="more"></a> <h5 id="分层、存储引擎"><a href="#分层、存储引擎" class="headerlink" title="分层、存储引擎"></a>分层、存储引擎</h5>]]></content>
+      
+      
+      <categories>
+          
+          <category> Mysql </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 优化 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>工具网址集合</title>
+      <link href="/2018/09/25/2018%20%E5%B7%A5%E5%85%B7%E7%BD%91%E5%9D%80%E9%9B%86%E5%90%88/"/>
+      <url>/2018/09/25/2018%20%E5%B7%A5%E5%85%B7%E7%BD%91%E5%9D%80%E9%9B%86%E5%90%88/</url>
+      
+        <content type="html"><![CDATA[<h3 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h3><p>开发软件：IntelliJ IDEA、WebStorm、Notepad++</p><p>数据库软件：Navicat Premium</p><p>linux软件：Xshell 5、Xftp 6</p><p>文档软件：Wps2019、Typora、XMind 8</p><a id="more"></a> <h3 id="网址"><a href="#网址" class="headerlink" title="网址"></a>网址</h3><p>Github（代码管理）：<a href="https://github.com" target="_blank" rel="noopener">https://github.com</a></p><p>Maven（包管理）：<a href="http://mvnrepository.com" target="_blank" rel="noopener">http://mvnrepository.com</a></p><p>Guluplay（VPN）：<a href="https://www.fuligif.win/index.php" target="_blank" rel="noopener">https://www.fuligif.win/index.php</a></p><p>Vultr（VPS）：<a href="https://my.vultr.com" target="_blank" rel="noopener">https://my.vultr.com</a></p><p>极客搜索：<a href="https://s.geekbang.org" target="_blank" rel="noopener">https://s.geekbang.org</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具网址 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 工具网址 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Centos7安装Jdk</title>
+      <link href="/2018/09/06/2018%20Centos7%E5%AE%89%E8%A3%85Jdk/"/>
+      <url>/2018/09/06/2018%20Centos7%E5%AE%89%E8%A3%85Jdk/</url>
+      
+        <content type="html"><![CDATA[<h5 id="卸载自带open-jdk"><a href="#卸载自带open-jdk" class="headerlink" title="卸载自带open-jdk"></a>卸载自带open-jdk</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">rpm -qa |grep java</span><br><span class="line">rpm -qa |grep jdk</span><br><span class="line">rpm -qa |grep gcj</span><br></pre></td></tr></table></figure><a id="more"></a> <h5 id="卸载命令"><a href="#卸载命令" class="headerlink" title="卸载命令"></a>卸载命令</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rpm -qa | grep java | xargs rpm -e --nodeps</span><br></pre></td></tr></table></figure><h5 id="检索java列表"><a href="#检索java列表" class="headerlink" title="检索java列表"></a>检索java列表</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">yum list java*</span><br><span class="line">yum list java-1.8*</span><br></pre></td></tr></table></figure><h5 id="安装1-8的所有文件"><a href="#安装1-8的所有文件" class="headerlink" title="安装1.8的所有文件"></a>安装1.8的所有文件</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install java-1.8.0-openjdk* -y</span><br></pre></td></tr></table></figure><h5 id="检查是否安装成功"><a href="#检查是否安装成功" class="headerlink" title="检查是否安装成功"></a>检查是否安装成功</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java -version</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件安装 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Jdk </tag>
+            
+            <tag> Centos7 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Centos7安装Mysql5.6</title>
+      <link href="/2018/09/06/2018%20Centos7%E5%AE%89%E8%A3%85Mysql5.6/"/>
+      <url>/2018/09/06/2018%20Centos7%E5%AE%89%E8%A3%85Mysql5.6/</url>
+      
+        <content type="html"><![CDATA[<h3 id="卸载mariadb"><a href="#卸载mariadb" class="headerlink" title="卸载mariadb"></a>卸载mariadb</h3><p>执行命令（列出所有被安装的mariadb rpm 包）</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rpm -qa | grep mariadb</span><br></pre></td></tr></table></figure><p>执行命令（逐个将所有列出的mariadb rpm 包给卸载掉）</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rpm -e --nodeps 包名称（比如：rpm -e --nodeps mariadb-libs-5.5.44-2.el7.centos.x86_64）</span><br></pre></td></tr></table></figure><a id="more"></a> <h3 id="添加官方的yum源"><a href="#添加官方的yum源" class="headerlink" title="添加官方的yum源"></a>添加官方的yum源</h3><p>以centos7安装mysql5.6为例：</p><p>创建并编辑mysql-community.repo文件</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /etc/yum.repos.d/mysql-community.repo</span><br></pre></td></tr></table></figure><p>将以下内容粘贴进去并保存</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">[mysql56-community]</span><br><span class="line"></span><br><span class="line">name=MySQL 5.6 Community Server</span><br><span class="line"></span><br><span class="line">baseurl=http://repo.mysql.com/yum/mysql-5.6-community/el/7/<span class="variable">$basearch</span>/</span><br><span class="line"></span><br><span class="line">enabled=1</span><br><span class="line"></span><br><span class="line">gpgcheck=0</span><br><span class="line"></span><br><span class="line">gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql</span><br></pre></td></tr></table></figure><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>执行命令</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo yum install mysql-community-server</span><br></pre></td></tr></table></figure><h3 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h3><p>执行命令</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo service mysqld start</span><br></pre></td></tr></table></figure><h3 id="授权远程权限"><a href="#授权远程权限" class="headerlink" title="授权远程权限"></a>授权远程权限</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">mysql -u root -p（初始密码为空，直接按回车即可）</span><br><span class="line"></span><br><span class="line">grant all privileges  on *.* to root@<span class="string">'%'</span> identified by <span class="string">"password"</span>;</span><br></pre></td></tr></table></figure><p>注意：mysql5.7的初始密码是随机生成的，放在了 <code>/var/log/mysqld.log</code></p><p>使用命令 以下读出来即可。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">grep ‘temporary password’ /var/<span class="built_in">log</span>/mysqld.log</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件安装 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Centos7 </tag>
+            
+            <tag> Mysql5.6 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Centos7防火墙命令</title>
+      <link href="/2018/09/06/2018%20Centos7%E9%98%B2%E7%81%AB%E5%A2%99%E5%91%BD%E4%BB%A4/"/>
+      <url>/2018/09/06/2018%20Centos7%E9%98%B2%E7%81%AB%E5%A2%99%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<h3 id="服务命令"><a href="#服务命令" class="headerlink" title="服务命令"></a>服务命令</h3><p>centos7开始使用systemctl来管理服务和程序，包括了service和chkconfig。</p><a id="more"></a> <h5 id="启动服务"><a href="#启动服务" class="headerlink" title="启动服务"></a>启动服务</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl start firewalld.service</span><br></pre></td></tr></table></figure><h5 id="关闭服务"><a href="#关闭服务" class="headerlink" title="关闭服务"></a>关闭服务</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl stop firewalld.service</span><br></pre></td></tr></table></figure><h5 id="重启服务"><a href="#重启服务" class="headerlink" title="重启服务"></a>重启服务</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl restart firewalld.service</span><br></pre></td></tr></table></figure><h5 id="查看服务的状态"><a href="#查看服务的状态" class="headerlink" title="查看服务的状态"></a>查看服务的状态</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl status firewalld.service</span><br></pre></td></tr></table></figure><h5 id="开机时启用服务"><a href="#开机时启用服务" class="headerlink" title="开机时启用服务"></a>开机时启用服务</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl <span class="built_in">enable</span> firewalld.service</span><br></pre></td></tr></table></figure><h5 id="开机时禁用服务"><a href="#开机时禁用服务" class="headerlink" title="开机时禁用服务"></a>开机时禁用服务</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl <span class="built_in">disable</span> firewalld.service</span><br></pre></td></tr></table></figure><h5 id="查看服务是否开机启动"><a href="#查看服务是否开机启动" class="headerlink" title="查看服务是否开机启动"></a>查看服务是否开机启动</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl is-enabled firewalld.service</span><br></pre></td></tr></table></figure><h5 id="查看已启动的服务列表"><a href="#查看已启动的服务列表" class="headerlink" title="查看已启动的服务列表"></a>查看已启动的服务列表</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl list-unit-files|grep enabled</span><br></pre></td></tr></table></figure><h3 id="端口命令"><a href="#端口命令" class="headerlink" title="端口命令"></a>端口命令</h3><h5 id="查看开放的端口"><a href="#查看开放的端口" class="headerlink" title="查看开放的端口"></a>查看开放的端口</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --list-ports</span><br></pre></td></tr></table></figure><h5 id="开启端口"><a href="#开启端口" class="headerlink" title="开启端口"></a>开启端口</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --zone=public --add-port=80/tcp --permanent</span><br></pre></td></tr></table></figure><h5 id="重启防火墙"><a href="#重启防火墙" class="headerlink" title="重启防火墙"></a>重启防火墙</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl restart firewalld.service</span><br></pre></td></tr></table></figure><p>命令含义：</p><p>–zone #作用域</p><p>–add-port=80/tcp #添加端口，格式为：端口/通讯协议</p><p>–permanent #永久生效，没有此参数重启后失效</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 常用命令 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Centos7 </tag>
+            
+            <tag> 防火墙 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Systemctl管理Springboot Jar包</title>
+      <link href="/2018/09/06/2018%20Systemctl%E7%AE%A1%E7%90%86Springboot%20Jar%E5%8C%85/"/>
+      <url>/2018/09/06/2018%20Systemctl%E7%AE%A1%E7%90%86Springboot%20Jar%E5%8C%85/</url>
+      
+        <content type="html"><![CDATA[<h3 id="增加服务文件"><a href="#增加服务文件" class="headerlink" title="增加服务文件"></a>增加服务文件</h3><p>进入服务文件目录：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /etc/systemd/system/</span><br></pre></td></tr></table></figure><p>创建服务文件：（文件名对应项目名，可自定义）</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim my-apps.service</span><br></pre></td></tr></table></figure><a id="more"></a> <h3 id="编辑内容"><a href="#编辑内容" class="headerlink" title="编辑内容"></a>编辑内容</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">[Unit]</span><br><span class="line">Description=apps</span><br><span class="line">After=syslog.target</span><br><span class="line"></span><br><span class="line">[Service]</span><br><span class="line">ExecStart=/usr/software/jdk1.8.0_131/bin/java -jar /var/apps/my-apps.jar</span><br><span class="line">Restart=always</span><br><span class="line"></span><br><span class="line">[Install]</span><br><span class="line">WantedBy=multi-user.target</span><br></pre></td></tr></table></figure><p>其它项目使用只要修改 <code>Description</code> 和 <code>ExecStart</code> 即可。</p><h3 id="服务操作"><a href="#服务操作" class="headerlink" title="服务操作"></a>服务操作</h3><h4 id="启动服务"><a href="#启动服务" class="headerlink" title="启动服务"></a>启动服务</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl start my-apps.service</span><br></pre></td></tr></table></figure><h4 id="停止服务"><a href="#停止服务" class="headerlink" title="停止服务"></a>停止服务</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl stop my-apps.service</span><br></pre></td></tr></table></figure><h4 id="服务状态"><a href="#服务状态" class="headerlink" title="服务状态"></a>服务状态</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl status my-apps.service</span><br></pre></td></tr></table></figure><h4 id="开机启动"><a href="#开机启动" class="headerlink" title="开机启动"></a>开机启动</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl <span class="built_in">enable</span> my-apps.service</span><br></pre></td></tr></table></figure><h4 id="开机禁用"><a href="#开机禁用" class="headerlink" title="开机禁用"></a>开机禁用</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl <span class="built_in">disable</span> my-apps.service</span><br></pre></td></tr></table></figure><h4 id="查看服务是否开机启动"><a href="#查看服务是否开机启动" class="headerlink" title="查看服务是否开机启动"></a>查看服务是否开机启动</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl is-enabled my-apps.service</span><br></pre></td></tr></table></figure><h4 id="项目日志"><a href="#项目日志" class="headerlink" title="项目日志"></a>项目日志</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">journalctl -u my-apps.service</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Springboot </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 包管理 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+  
+  
+</search>
